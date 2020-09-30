@@ -1,0 +1,66 @@
+html, body, textarea {
+    background-color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .mobilenav {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: relative;
+
+    img {
+        width: 10%;
+    }
+  }
+  
+  .mobilenav #menu {
+    display: none;
+  }
+  
+  .mobilenav a {
+    float: left;
+    color:#555;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .mobilenav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .mobilenav a:hover {
+    // background-color: #ddd;
+    color: black;
+  }
+  
+  // .active {
+  //   background-color: #4CAF50;
+  //   color: white;
+  // }
+
+  .mobilenav {
+      display: none;
+  }
+
+
+  @media only screen and (max-width: 425px) {
+      .wrapper {
+          display: block !important; 
+      }
+      .main-nav {
+          display: none !important;
+      }
+      .mobilenav {
+          display: block;
+      }
+  }

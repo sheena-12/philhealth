@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="../web/css/main.css">
+	<script src="../web/script.js"></script>
+	<title>Services</title>
+</head>
+<body class="services">
+		<div class="wrapper">
+			<div class="main-nav">
+				<div><img src="../web/images/philhealth-logo.png" /></div>
+				<nav>
+					<a href="../web/index.html">Home</a>
+					<a href="../web/members.html">Members</a>
+					<a href="../web/services.html">Services</a>
+					<a href="../web/contact.html">Contact</a>
+				</nav>
+			</div>
+			
+			<div class="mobile-container">
+				<div class="mobilenav">
+					<a href="#" class="active">Logo</a>
+					<div id="menu">
+						<a href="../web/members.html">Members</a>
+						<a href="../web/services.html">Services</a>
+						<a href="../web/contact.html">Contact</a>
+					</div>
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+				</div>
+			</div>
+		</div>
+
+	<div class="grid">
+		<div class="service-heading">
+			<p class="green"><strong>Lorem Ipsum</strong></p>
+			<h3>Lorem Ipsum Dolor Sit Amet</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu.</p>
+		</div>
+
+		<div class="grid-of-cards margintop20">
+			<div>
+				<article class="card">
+					<div class="display-flex">
+						<img src="../web/images/information.png" class="img-small">
+						<p>Service 1</p>
+					</div>
+				</article>
+				<div class="overlap">
+					<img src="../web/images/information-desk.png" class="img">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<button class="trigger">View Details</button>
+				</div>
+			</div>
+
+			<div>
+				<article class="card">
+					<div class="display-flex">
+						<img src="../web/images/information.png" class="img-small">
+						<p>Service 2</p>
+					</div>
+				</article>
+				<div class="overlap">
+					<img src="../web/images/information-desk.png" class="img">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<button class="trigger">View Details</button>
+				</div>
+			</div>
+
+			<div>
+				<article class="card">
+					<div class="display-flex">
+						<img src="../web/images/information.png" class="img-small">
+						<p>Service 3</p>
+					</div>
+				</article>
+				<div class="overlap">
+					<img src="../web/images/information-desk.png" class="img">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<button class="trigger">View Details</button>
+				</div>
+			</div>
+
+			<div>
+				<article class="card">
+					<div class="display-flex">
+						<img src="../web/images/information.png" class="img-small">
+						<p>Service 4</p>
+					</div>
+				</article>
+				<div class="overlap">
+					<img src="../web/images/information-desk.png" class="img">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<button class="trigger">View Details</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="grid">
+			<div class="inner-footer">
+				<div>
+					<p><strong>Lorem Ipsum Dolor Sit Amet</strong></p>
+					<p>Lorem Ipsum</p>
+					<p>Lorem Ipsum</p>
+					<p>Lorem Ipsum</p>
+					<p>Lorem Ipsum</p>
+				</div>
+				<div>
+					<p><strong>Lorem Ipsum Dolor Sit Amet</strong></p>
+					<p>Lorem Ipsum</p>
+					<p>Lorem Ipsum</p>
+					<p>Lorem Ipsum</p>
+					<p>Lorem Ipsum</p>
+				</div>
+				<div>
+					<p><strong>Lorem Ipsum Dolor Sit Amet</strong></p>
+					<p>Lorem Ipsum</p>
+					<p>Lorem Ipsum</p>
+					<p>Lorem Ipsum</p>
+					<p>Lorem Ipsum</p>
+				</div>
+				<div>
+					<p><strong>Lorem Ipsum Dolor Sit Amet</strong></p>
+					<p>Lorem Ipsum</p>
+					<p>Lorem Ipsum</p>
+					<p>Lorem Ipsum</p>
+					<p>Lorem Ipsum</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-rights">
+			<p>All Rights Reserved 2020</p>
+		</div>
+	</div>
+
+
+	
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+			<h1>Philhealth Contributions</h1>
+			<table style="width:100%">
+				<tr>
+				  <th>Year</th>
+				  <th>Premium Rate</th>
+				  <th>Income Range</th>
+				  <th>Monthly Premium</th>
+				</tr>
+				<tr>
+				  <td>2016</td>
+				  <td>2.75</td>
+				  <td>10,000 to 50,000</td>
+				  <td>275 to 1,375</td>
+				</tr>
+				<tr>
+				<td>2017</td>
+				<td>2.75</td>
+				<td>10,000 to 50,000</td>
+				<td>275 to 1,375</td>
+				</tr>
+				<tr>
+				<td>2018</td>
+				<td>2.75</td>
+				<td>10,000 to 50,000</td>
+				<td>275 to 1,375</td>
+				</tr>
+				<tr>
+				<td>2019</td>
+				<td>2.75</td>
+				<td>10,000 to 50,000</td>
+				<td>275 to 1,375</td>
+				</tr>
+			  </table>
+        </div>
+    </div>
+
+</body>
+
+<script>
+	var modal = document.querySelector(".modal");
+    var trigger = document.querySelector(".trigger");
+    var closeButton = document.querySelector(".close-button");
+
+    function toggleModal() {
+        modal.classList.toggle("show-modal");
+    }
+
+    function windowOnClick(event) {
+        if (event.target === modal) {
+            toggleModal();
+        }
+    }
+
+    trigger.addEventListener("click", toggleModal);
+    closeButton.addEventListener("click", toggleModal);
+    window.addEventListener("click", windowOnClick);
+</script>
+</html>

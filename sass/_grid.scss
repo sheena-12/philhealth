@@ -1,0 +1,35 @@
+.grid {
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 1.5em;
+    grid-column: 1 / -1;
+}
+
+.footer {
+    grid-column: 1 / -1;
+    display: grid;
+    background-color: #FAFAFA;
+    margin-top: 10em;
+
+    .inner-footer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 6em;
+    }
+
+    @media only screen and (max-width: 425px) {
+        margin-top: 2em;
+        .grid {
+            display: none;
+        }
+    }
+
+    .footer-rights {
+        background-color: #F1F1F1;
+        text-align: center;
+        // bottom: 0;
+        // position: absolute;
+        // width: 100%;
+    }
+}
